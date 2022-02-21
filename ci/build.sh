@@ -72,7 +72,7 @@ time yarn lint
 log-group-end
 
 log-group-start "prettier"
-time yarn prettier:check
+time yarn prettier --check
 log-group-end
 
 log-group-start "Check TypeScript"

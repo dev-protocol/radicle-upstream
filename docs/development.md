@@ -226,15 +226,10 @@ Here's a list of all scripts that are intended for developer use:
     yarn test:integration       # Run only Cypress integration tests
     yarn test:integration:debug # Show the Cypress GUI, useful for
                                 # visual debugging
-    yarn test:unit              # Run only Jest unit tests
-    yarn test:unit:watch        # Run Jest tests in watch mode
-
     yarn dist                   # Build an installable Upstream package for the
                                 # current platform
 
     yarn typescript:check       # Type-check all UI *.ts and *.svelte files
-    yarn prettier:check         # Check UI code formatting
-    yarn prettier:write         # Auto-format UI code
     yarn lint                   # Check UI code for linting errors
 
     yarn reset:state            # Delete all local state:
